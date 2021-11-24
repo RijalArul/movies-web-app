@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background: linear-gradient(to right, #e52d27, #b31217);
+  height: 100%;
 }
 
 .App-logo {
@@ -35,4 +37,142 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.text-upcoming-movies {
+  font-size: 20;
+  font-weight: 850;
+}
+
+.upcoming-section {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.card-upcoming-section {
+  border-radius: 3%;
+  border-width: 1px;
+  height: 600px;
+}
+
+.text-popular-movies {
+  font-size: 20;
+  font-weight: 850;
+}
+
+.popular-section {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.card-popular-section {
+  border-radius: 3%;
+  border-width: 1px;
+  height: 600px;
+}
+
+.text-top-rated-movies {
+  font-size: 20;
+  font-weight: 850;
+}
+
+.top-rated-section {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.card-top-rated-section {
+  border-radius: 3%;
+  border-width: 1px;
+  height: 600px;
+}
+
+.image-movie-detail {
+  position: absolute;
+  width: 40%;
+  height: 600px;
+  right: 57%;
+  margin-top: 10px;
+  top: 243px;
+}
+
+.title-movie-detail {
+  position: absolute;
+  left: 36%;
+  right: 20%;
+  top: 97px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.overview-movie-detail {
+  position: absolute;
+  color: white;
+  left: 36%;
+  right: 7%;
+  top: 220px;
+  height: 28px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+.genre-movie-detail {
+  margin-top: 8px;
+  font-size: 16px;
+}
+
+.button-genre-movie-detail {
+  margin-top: 155px;
+}
+.description-movie-detail {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 250px;
+}
+
+.card-cast-movie-section {
+  position: relative;
+  margin-top: 65px;
+  font-size: 16px;
+  width: 170px;
+  margin-right: 50px;
+  padding: 10;
+  /* width: 100%; */
+  right: 70%;
+  height: 470px;
+  background: white;
+}
+
+.cast-movie-section {
+  position: relative;
+  margin-top: 700px;
+  margin-left: 230px;
+  right: 0;
+}
+
+.cast-text-section {
+  position: relative;
+  right: 20%;
+  top: 17px;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.movie-bookmark-detail {
+  position: absolute;
+  margin-top: 650px;
+  margin-right: 180px;
+  right: 5px;
+}
+
+.movie-trailer-detail {
+  position: absolute;
+  margin-top: 650px;
+  margin-left: 10px;
 }
