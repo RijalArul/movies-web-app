@@ -5,7 +5,6 @@
 /.pnp
 .pnp.js
 /src/api/ApikeyMovie.js
-/src/api/MovieApi.js
 
 # testing
 /coverage
